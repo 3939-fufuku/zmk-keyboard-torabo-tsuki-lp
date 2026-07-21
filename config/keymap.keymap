@@ -21,6 +21,11 @@
             bindings = <&mkp MB2>;
             key-positions = <33 35>;
         };
+
+        Msc {
+            bindings = <&msc MOVE_Y(0)>;
+            key-positions = <33 34 35>;
+        };
     };
 
     keymap {
