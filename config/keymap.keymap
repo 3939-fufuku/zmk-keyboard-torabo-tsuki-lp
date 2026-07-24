@@ -11,21 +11,6 @@
             bindings = <&bt BT_CLR>;
             key-positions = <28 29>;
         };
-
-        L_mkp {
-            bindings = <&mkp MB1>;
-            key-positions = <34 33>;
-        };
-
-        R_mkp {
-            bindings = <&mkp MB2>;
-            key-positions = <35 34>;
-        };
-
-        Msc {
-            bindings = <&msc MOVE_Y(0)>;
-            key-positions = <33 35>;
-        };
     };
 
     keymap {
